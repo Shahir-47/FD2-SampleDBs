@@ -51,7 +51,7 @@ while [[ "$Y_N" != "n" && "$Y_N" != "N" ]]; do
     NOW=$(date +"%m-%d-%y-%H-%M")
     BACKUP_FILE="$HOME/FarmData2/docker/db.$NOW.tar.gz"
 
-    sudo tar cjvf "$BACKUP_FILE" ./* > /dev/null
+    sudo tar czvf "$BACKUP_FILE" ./* > /dev/null
     error_check
 
     echo "    Current database backed up to $BACKUP_FILE"
@@ -60,7 +60,7 @@ while [[ "$Y_N" != "n" && "$Y_N" != "N" ]]; do
     echo "      sudo chmod g+rwx $HOME/FarmData2/docker/db"
     echo "      cd $HOME/FarmData2/docker/db"
     echo "      sudo rm -rf ./*"
-    echo "      sudo tar -xjf $BACKUP_FILE"
+    echo "      sudo tar -xzf $BACKUP_FILE"
     echo "      docker start fd2_postgres"
 
     break
