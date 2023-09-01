@@ -26,9 +26,6 @@ jobs:
           cache: 'npm'
       - name: Install CI Dependencies
         run: npm ci
-
-      - name: Build Base Database
-        run: ./bin/buildBaseDB.bash
     
       - name: Create Semantic Versioned Release
         run: npx semantic-release
