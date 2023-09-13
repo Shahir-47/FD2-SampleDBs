@@ -23,19 +23,21 @@ sudo tar -xzf $HOME/FD2-SampleDBs/dist/db.base.tar.gz
 docker start fd2_postgres
 ```
 
+Change the `db.X.tar.gz` filename in the `sudo tar` command to match the desired database.
+
 ## Development
 
 To change, modify, update, add a database:
 
 - Prerequisites:
-  - Fork the upstream repository
-  - Clone your fork
+  - Fork the `FD2-SampleDBs` upstream repository
+  - Clone your fork into the FarmData2 Development Environment
 1. Ensure that your `development` branch is synchronized with the `upstream`
 2. Create a new feature branch from the `development` branch
 3. Make and test changes in your feature branch
 4. Run the `bin/buildDBs.bash` script
-5. Test that the created database works 
-   - See [Manually Installing a Database](#manually-installing-a-database)
+5. Install and test that the new database works 
+   - See [Manually Installing a Database](#manually-installing-a-database) above
 6. Commit to your feature branch:
    - The changes you have made to the code.
    - The newly created database files (e.g. `db.base.tar.gz`)
@@ -46,10 +48,10 @@ A maintainer will:
 
 1. Review your pull request and provide feedback
 2. If/when appropriate squash merge your pull request into the `development` branch
-   - The squash merge commit message mut be a conventional commit message.
+   - The squash merge commit message must be a conventional commit message.
      - This will create a pre-release `vX.Y.Z-development.n`
        - X.Y.Z is the semantic version of the next release if created at the moment
-       - n is a sequence number indicating 
+       - n is a sequence number for pre-releases with the same semantic version number.
 
 ## Creating a Release
 
