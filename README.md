@@ -4,15 +4,24 @@ Code and tools for building the sample databases used for FarmData2 development.
 
 All of the following documentation assumes that operations are performed within the FarmData2 Development Environment.
 
+## Preliminaries
+
+Install the dependencies by:
+- Change into the `FD2-SampleDBs` directory
+- run `npm install`
+
 ## Building the Databases
 
-The following scripts contained in the `bin` directory are used to build the sample databases:
+The following scripts contained in the `src` directory are used to build the sample databases:
 
-- `buildBaseDB.bash`: Builds an empty farmOS database.  This is used as a base for building other sample databases.
+- `baseDB/buildBaseDB.bash`: Builds an empty farmOS database.  This is used as a base for building other sample databases.
+- `sampleDB/buildSampleDB.bash`: Builds a sample farmOS database populated with approximately 18 months of anonymized data from 2019-2020 at the Dickinson College farm.
 
-## Manually Installing a Database
+## Installing a Database
 
-The following steps can be adapted to install a database into the currently running farmOS instance:
+The `bin/installDB.bash` script can be used to install any of the compressed database in the `dist` directory.
+
+A database can be installed into the currently running farmOS instance manually by using the commands below and changing the `db.X.tar.gz` filename in the `sudo tar` command to match the desired database:
 
 ```
 docker stop fd2_postgres
@@ -22,8 +31,6 @@ sudo rm -rf ./*
 sudo tar -xzf $HOME/FD2-SampleDBs/dist/db.base.tar.gz
 docker start fd2_postgres
 ```
-
-Change the `db.X.tar.gz` filename in the `sudo tar` command to match the desired database.
 
 ## Development
 
@@ -35,7 +42,7 @@ To change, modify, update, add a database:
 1. Ensure that your `development` branch is synchronized with the `upstream`
 2. Create a new feature branch from the `development` branch
 3. Make and test changes in your feature branch
-4. Run the `bin/buildDBs.bash` script
+4. Run the appropriate script(s) to build the database
 5. Install and test that the new database works 
    - See [Manually Installing a Database](#manually-installing-a-database) above
 6. Commit to your feature branch:
