@@ -1,3 +1,17 @@
+## [1.1.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.0.0...v1.1.0) (2023-09-29)
+
+
+### Chores
+
+* make .releases script cjs ([#6](https://github.com/FarmData2/FD2-SampleDBs/issues/6)) ([bafb256](https://github.com/FarmData2/FD2-SampleDBs/commit/bafb2562b692dd17e383974244e6045785e0fd44))
+
+
+### Features
+
+* add scripts for creating a sample database ([#3](https://github.com/FarmData2/FD2-SampleDBs/issues/3)) ([6ac84eb](https://github.com/FarmData2/FD2-SampleDBs/commit/6ac84eb52039f8d7a7ae97283de51320c50a414b))
+* add the planting areas to sampleDB ([#5](https://github.com/FarmData2/FD2-SampleDBs/issues/5)) ([8eeacf7](https://github.com/FarmData2/FD2-SampleDBs/commit/8eeacf78fcbbe8140babdb8256fc8c89b756d598))
+* add utility functions for fields and beds, and greenhouses ([#7](https://github.com/FarmData2/FD2-SampleDBs/issues/7)) ([af0738d](https://github.com/FarmData2/FD2-SampleDBs/commit/af0738d44c8a79bed42e355aa7754777ed633c7a))
+
 ## 1.0.0 (2023-09-13)
 
 
