@@ -56,10 +56,13 @@ A maintainer will:
 
 When changes warranting a new release have been added to the `development` branch a maintainer will create a new release by:
 
-1. Fast-forward merging the latest `development` branch into the `production` branch
-2. Pushing the `production` branch to the upstream
+1. Updating the `production` and `development` branches from the upstream.
+2. Fast-forward merging the latest `development` branch into the `production` branch
+3. Pushing the `production` branch to the upstream
    - This will create a new release `vX.Y.Z`
      - X.Y.Z is the semantic version of the release
      - All but the most recent `development` pre-release will be deleted
-     - The CHANGELOG.md file in the `production` branch is updated with the changes added
+     - The `CHANGELOG.md` file in the `production` branch is updated with the changes added
      - The `production` branch is _backmerged_ into the `development` branch
+4. Updating the `production` and `development` branches from the upstream.
+   - To get the backmerged `CHANGELOG.md` file.
