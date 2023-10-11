@@ -19,12 +19,37 @@ The following scripts contained in the `src` directory are used to build the sam
 
 ## Installing a Database
 
-The `bin/installDB.bash` script can be used to install any of the compressed database in the `dist` directory. Running `installDB.bash` 
-with no command line arguments displays a list of the available databases.
-Alternatively, the name of a `db.*.tar.gz` file in the `/dist` directory
-can be specified on the command line.
+The `bin/installDB.bash` script can be used to install any of the compressed database in the `dist` directory. Running `installDB.bash` with no command line arguments displays a list of the available databases. Alternatively, the name of a `db.*.tar.gz` file in the `/dist` directory can be specified on the command line.
 
 ## Development
+
+### Printing farmOS log/asset JSON
+
+The structure of a farmOS record (e.g. asset, log, quantity, term, user) can be displayed using the command:
+
+`npm run print-log <type>`
+
+where `<type>` is one of the record types.  Run the command without the `<type` argument to see a list of all of the record types.
+
+### farmosUtil.js
+
+The `src/util/farmosUtil.js` file contains a module of useful utility functions for working with farmOS records.  
+
+#### Running Tests
+
+The `src/util/` directory contains a collection of unit tests for the `farmosUtil.js` module.  To run the tests use one of the following commands:
+
+- `npm run test-util` - run all of the test for `farmosUtil.js`
+- `npm run test-gui` - launch the Cypress GUI test runner.
+- `npm run test <spec blob>` - run the tests that match the `spec blob>`.  This is useful for running just the tests for the module function currently being worked on.
+
+#### Generating Documentation
+
+The `farmosUtil.js` module is documented using JSDOC.  Use the following command to generate the documentation for this module in the `docs` directory:
+
+- `npm run doc-util`
+
+### Development Workflow
 
 To change, modify, update, add a database:
 
