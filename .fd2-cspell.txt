@@ -11,6 +11,7 @@ farmdata
 farmos
 getopt
 gids
+isready
 linkcheck
 novnc
 pgid
