@@ -39,32 +39,32 @@ echo -e "${UNDERLINE_GREEN}Installing the $DB database${NO_COLOR}"
 
 echo "Stopping farmOS..."
 docker stop fd2_farmos > /dev/null
-error_check
+error_check "Error occurred stopping farmOS."
 echo "  Stopped."
 
 echo "Stopping Postgres..."
 docker stop fd2_postgres > /dev/null
-error_check
+error_check "Error occurred stopping Postgres."
 echo "  Stopped."
 
 # Make sure that the FarmData2/docker/db directory has appropriate permissions.
 echo "Setting permissions on $HOME/FarmData2/docker/db..."
 sudo chmod g+rwx "$HOME/FarmData2/docker/db"
-error_check
+error_check "Unable to set permissions."
 sudo chgrp fd2dev "$HOME/FarmData2/docker/db"
-error_check
+error_check "Unable to change group."
 echo "  Set."
 
 safe_cd "$HOME/FarmData2/docker/db"
 
-echo "Deleting current databae..."
+echo "Deleting current database..."
 sudo rm -rf ./*
-error_check
+error_check "Unable to delete the current database."
 echo "  Deleted."
 
 echo "Extracting $DB..."
 sudo tar -xzf "$REPO_DIR/dist/$DB" > /dev/null
-error_check
+error_check "Error extracting the database."
 echo "  Extracted."
 
 echo "Removing farmOS tokens..."
@@ -73,7 +73,7 @@ echo "Removed."
 
 echo "Restarting Postgres..."
 docker start fd2_postgres > /dev/null
-error_check
+error_check "Error starting Postgres."
 STATUS=$(docker exec fd2_postgres pg_isready)
 while [[ ! "$STATUS" == *"accepting connections"* ]]; do
   STATUS=$(docker exec fd2_postgres pg_isready)
@@ -82,7 +82,12 @@ echo "  Started."
 
 echo "Restarting farmOS..."
 docker start fd2_farmos > /dev/null
-error_check
+error_check "Error starting farmOS."
 echo "  Started."
+
+echo "Clearing the Drupal cache..."
+clearDrupalCache.bash
+error_check "Unable to clear the cache."
+echo "  Drupal cache cleared."
 
 echo -e "${UNDERLINE_GREEN}Installed the $DB database${NO_COLOR}"
