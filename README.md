@@ -89,5 +89,7 @@ When changes warranting a new release have been added to the `development` branc
      - All but the most recent `development` pre-release will be deleted
      - The `CHANGELOG.md` file in the `production` branch is updated with the changes added
      - The `production` branch is _backmerged_ into the `development` branch
-4. Updating the `production` and `development` branches from the upstream.
-   - To get the backmerged `CHANGELOG.md` file.
+
+Then you will need to:
+
+1. Update the `production` and `development` branches from the upstream to get the backmerged `CHANGELOG.md` file.
