@@ -53,15 +53,14 @@ const config = {
 }
 
 /* 
- * We only keep a CHANGELOG.md file in the release branch.
- * This prevents merge conflicts when development is merged into main.
+ * We only generate a CHANGELOG.md file in the production branch.
+ * This prevents merge conflicts when development is merged into production.
  * 
  * As suggested in:
  *   https://github.com/semantic-release/changelog/issues/51#issuecomment-682609394
  * 
- * We also only backmerge main into development when pushing to the release branch.
- * This ensures development matches main and semver for pre-releases is correct.
- * 
+ * We then backmerge production into development to copy the CHANGELOG.md file.
+ *
  * As suggested in:
  *   https://github.com/semantic-release/semantic-release/issues/1460#issuecomment-789377269
  */
