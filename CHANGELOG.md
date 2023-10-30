@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.1.1...v1.2.0) (2023-10-30)
+
+
+### Features
+
+* add crops to the sample database ([febd843](https://github.com/FarmData2/FD2-SampleDBs/commit/febd8435e087b2223044ef9c41cf8d241221795b))
+
 ## [1.1.1](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.1.0...v1.1.1) (2023-10-30)
 
 
