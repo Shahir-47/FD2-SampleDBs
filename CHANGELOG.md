@@ -1,3 +1,24 @@
+## [1.1.1](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.1.0...v1.1.1) (2023-10-30)
+
+
+### Chores
+
+* small updates ([d7dc1ff](https://github.com/FarmData2/FD2-SampleDBs/commit/d7dc1ffae8ce0d9c6d58a6b1d642608794c05141))
+* updates spell check dictionary ([9f4a02f](https://github.com/FarmData2/FD2-SampleDBs/commit/9f4a02f685c737d3d447c4cbbd5d7f6ff3acb4c4))
+
+
+### Documentation
+
+* update instructions for release ([01c7fcf](https://github.com/FarmData2/FD2-SampleDBs/commit/01c7fcf8951651e9c55f74ebdf945efe30e586b0))
+* update steps for creating release ([e7472c9](https://github.com/FarmData2/FD2-SampleDBs/commit/e7472c9e896d6134a84768e093cea6100fdac6fb))
+* updates readme with npm run commands ([f06b09f](https://github.com/FarmData2/FD2-SampleDBs/commit/f06b09f1450bcb7a03de8271fc7ad77b5c430763))
+
+
+### Fixes
+
+* adds arguments to error_check calls for custom messages ([9de9b97](https://github.com/FarmData2/FD2-SampleDBs/commit/9de9b9797673c25067721b37177b4723da076412))
+* adds parameter to error_check function ([b17e266](https://github.com/FarmData2/FD2-SampleDBs/commit/b17e26615c879fa5fd34deb9eb1b80fcea94f8dd))
+
 ## [1.1.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.0.0...v1.1.0) (2023-09-29)
 
 
