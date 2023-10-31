@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.2.0...v1.2.1) (2023-10-31)
+
+
+### Fixes
+
+* prepends parent crop name to subcrops. ([#10](https://github.com/FarmData2/FD2-SampleDBs/issues/10)) ([7f3d7d1](https://github.com/FarmData2/FD2-SampleDBs/commit/7f3d7d1b152ed24a7d7362148d5b84089e7a7c69))
+
 ## [1.2.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.1.1...v1.2.0) (2023-10-30)
 
 
