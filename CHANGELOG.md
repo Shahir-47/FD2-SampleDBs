@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.2.1...v1.2.2) (2023-11-02)
+
+
+### Fixes
+
+* includes updated sample db in dist ([#12](https://github.com/FarmData2/FD2-SampleDBs/issues/12)) ([8a3e970](https://github.com/FarmData2/FD2-SampleDBs/commit/8a3e97040507058e70a87ac272955e6004852711)), closes [#10](https://github.com/FarmData2/FD2-SampleDBs/issues/10)
+
 ## [1.2.1](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.2.0...v1.2.1) (2023-10-31)
 
 
