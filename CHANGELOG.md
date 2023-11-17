@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.2.2...v1.3.0) (2023-11-17)
+
+
+### Features
+
+* adds CORS origins to farm client and added tray size vocabulary ([#13](https://github.com/FarmData2/FD2-SampleDBs/issues/13)) ([3e26c61](https://github.com/FarmData2/FD2-SampleDBs/commit/3e26c61500807584f9a6dffac7705bf7d3078a19)), closes [#11](https://github.com/FarmData2/FD2-SampleDBs/issues/11)
+
 ## [1.2.2](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.2.1...v1.2.2) (2023-11-02)
 
 
