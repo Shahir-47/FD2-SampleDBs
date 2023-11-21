@@ -1,3 +1,11 @@
+## [1.4.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.3.0...v1.4.0) (2023-11-21)
+
+
+### Features
+
+* adds log categories to the sample database ([#15](https://github.com/FarmData2/FD2-SampleDBs/issues/15)) ([824e65d](https://github.com/FarmData2/FD2-SampleDBs/commit/824e65d0e6cd1f4d24d74f394655a0d95dd165fe))
+* adds units to the sample database ([#14](https://github.com/FarmData2/FD2-SampleDBs/issues/14)) ([798cf8f](https://github.com/FarmData2/FD2-SampleDBs/commit/798cf8f6ac921779a717e344b55057f6abb25887))
+
 ## [1.3.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.2.2...v1.3.0) (2023-11-17)
 
 
