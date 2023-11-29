@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.4.0...v1.5.0) (2023-11-29)
+
+
+### Features
+
+* enables the farmOS inventory module ([#16](https://github.com/FarmData2/FD2-SampleDBs/issues/16)) ([80a9c8b](https://github.com/FarmData2/FD2-SampleDBs/commit/80a9c8bfaeafb8cfd3fd207d87f9615ea143c978))
+
 ## [1.4.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.3.0...v1.4.0) (2023-11-21)
 
 
