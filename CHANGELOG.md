@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.5.1...v1.5.2) (2023-12-05)
+
+
+### Fixes
+
+* makes units for tray seedings consistent ([#19](https://github.com/FarmData2/FD2-SampleDBs/issues/19)) ([0a5ea3c](https://github.com/FarmData2/FD2-SampleDBs/commit/0a5ea3c06014fbee32e886b9c15c069c5033c6d4))
+
 ## [1.5.1](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.5.0...v1.5.1) (2023-11-29)
 
 
