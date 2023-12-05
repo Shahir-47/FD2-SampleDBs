@@ -1,3 +1,10 @@
+## [1.5.3](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.5.2...v1.5.3) (2023-12-05)
+
+
+### Fixes
+
+* includes the zipped db ([d367ab4](https://github.com/FarmData2/FD2-SampleDBs/commit/d367ab4332a41d359fb183cd79b74f74fd81ab9e))
+
 ## [1.5.2](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.5.1...v1.5.2) (2023-12-05)
 
 
