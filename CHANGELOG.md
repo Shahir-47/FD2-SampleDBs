@@ -1,3 +1,17 @@
+## [2.0.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.5.3...v2.0.0) (2023-12-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* database images are built using farmOS v3.x and
+postgres v13.
+* migrates to farmos3 and postgres 13 (#21)
+
+### Features
+
+* migrates to farmOS and postgres 13 ([#23](https://github.com/FarmData2/FD2-SampleDBs/issues/23)) ([729f80c](https://github.com/FarmData2/FD2-SampleDBs/commit/729f80c023ea74e45406bebd785cc713064c8569))
+* migrates to farmos3 and postgres 13 ([#21](https://github.com/FarmData2/FD2-SampleDBs/issues/21)) ([dc606e8](https://github.com/FarmData2/FD2-SampleDBs/commit/dc606e82953e5357e7a32880774504534f9f42aa))
+
 ## [1.5.3](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.5.2...v1.5.3) (2023-12-05)
 
 
