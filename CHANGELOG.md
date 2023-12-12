@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/FarmData2/FD2-SampleDBs/compare/v2.0.0...v2.0.1) (2023-12-12)
+
+
+### Fixes
+
+* removes ssl key creation from sample DB build ([#26](https://github.com/FarmData2/FD2-SampleDBs/issues/26)) ([a73f630](https://github.com/FarmData2/FD2-SampleDBs/commit/a73f6306b781f435c3f35fb120f7391a256debe8))
+
 ## [2.0.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v1.5.3...v2.0.0) (2023-12-12)
 
 
