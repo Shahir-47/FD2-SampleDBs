@@ -1,3 +1,15 @@
+## [3.0.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v2.0.1...v3.0.0) (2023-12-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* Changes the areas and crops that appear in the sample
+database which will break FarmData2 tests.
+
+### Features
+
+* reduces size of sample database ([#30](https://github.com/FarmData2/FD2-SampleDBs/issues/30)) ([f78cee4](https://github.com/FarmData2/FD2-SampleDBs/commit/f78cee4ec054dd66a324ac4fa241f60790c17442)), closes [#27](https://github.com/FarmData2/FD2-SampleDBs/issues/27) [#28](https://github.com/FarmData2/FD2-SampleDBs/issues/28) [#29](https://github.com/FarmData2/FD2-SampleDBs/issues/29)
+
 ## [2.0.1](https://github.com/FarmData2/FD2-SampleDBs/compare/v2.0.0...v2.0.1) (2023-12-12)
 
 
