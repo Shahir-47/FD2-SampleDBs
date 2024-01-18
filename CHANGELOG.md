@@ -1,3 +1,17 @@
+## [3.1.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.0.0...v3.1.0) (2024-01-18)
+
+
+### Features
+
+* add log category for soil disturbances ([#35](https://github.com/FarmData2/FD2-SampleDBs/issues/35)) ([3a2e4b7](https://github.com/FarmData2/FD2-SampleDBs/commit/3a2e4b7d91a843b6892ace81eff88faeee55fc38))
+* adds generic equipment for seedings to sample database ([#31](https://github.com/FarmData2/FD2-SampleDBs/issues/31)) ([1ca8802](https://github.com/FarmData2/FD2-SampleDBs/commit/1ca880217688c04f466e17a3002de8aa8e648293))
+
+
+### Fixes
+
+* "revert: "fix: updates sample db image in dist"" ([#34](https://github.com/FarmData2/FD2-SampleDBs/issues/34)) ([df91e03](https://github.com/FarmData2/FD2-SampleDBs/commit/df91e039e659b07bdb730ba9f13992797ab03eb9)), closes [FarmData2/FD2-SampleDBs#33](https://github.com/FarmData2/FD2-SampleDBs/issues/33)
+* updates sample db image in dist ([#32](https://github.com/FarmData2/FD2-SampleDBs/issues/32)) ([893d65b](https://github.com/FarmData2/FD2-SampleDBs/commit/893d65b84542d3b5d68e934e7028706b718c3d3b))
+
 ## [3.0.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v2.0.1...v3.0.0) (2023-12-30)
 
 
