@@ -1,3 +1,10 @@
+## [3.2.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.1.0...v3.2.0) (2024-01-23)
+
+
+### Features
+
+* adds log categories for PASA SHBS ([#37](https://github.com/FarmData2/FD2-SampleDBs/issues/37)) ([ecb87c4](https://github.com/FarmData2/FD2-SampleDBs/commit/ecb87c40db2bb8b340c96179c3d2c37cfebff2ab)), closes [#36](https://github.com/FarmData2/FD2-SampleDBs/issues/36)
+
 ## [3.1.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.0.0...v3.1.0) (2024-01-18)
 
 
