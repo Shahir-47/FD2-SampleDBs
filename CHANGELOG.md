@@ -1,3 +1,10 @@
+## [3.2.1](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.2.0...v3.2.1) (2024-01-24)
+
+
+### Fixes
+
+* clarifies and adjusts the FarmData2 log categories ([#38](https://github.com/FarmData2/FD2-SampleDBs/issues/38)) ([f71814c](https://github.com/FarmData2/FD2-SampleDBs/commit/f71814c24d6d52d4bbbbae050a97e572869a7b31))
+
 ## [3.2.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.1.0...v3.2.0) (2024-01-23)
 
 
