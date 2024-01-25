@@ -1,3 +1,10 @@
+## [3.2.3](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.2.2...v3.2.3) (2024-01-25)
+
+
+### Fixes
+
+* removes creation of unit taxonomy terms ([#41](https://github.com/FarmData2/FD2-SampleDBs/issues/41)) ([b838736](https://github.com/FarmData2/FD2-SampleDBs/commit/b838736509d7b64dc5a3b90da86e837c6c682e20)), closes [#39](https://github.com/FarmData2/FD2-SampleDBs/issues/39) [#40](https://github.com/FarmData2/FD2-SampleDBs/issues/40)
+
 ## [3.2.2](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.2.1...v3.2.2) (2024-01-25)
 
 
