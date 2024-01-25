@@ -1,3 +1,10 @@
+## [3.2.2](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.2.1...v3.2.2) (2024-01-25)
+
+
+### Fixes
+
+* drops the creation of log categories ([#39](https://github.com/FarmData2/FD2-SampleDBs/issues/39)) ([b29e049](https://github.com/FarmData2/FD2-SampleDBs/commit/b29e049bfae0913d6a8de0bce4a65938fe989329))
+
 ## [3.2.1](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.2.0...v3.2.1) (2024-01-24)
 
 
