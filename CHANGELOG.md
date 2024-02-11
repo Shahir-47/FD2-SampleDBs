@@ -1,3 +1,10 @@
+## [3.2.4](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.2.3...v3.2.4) (2024-02-11)
+
+
+### Fixes
+
+* adds a greenhouse with no beds ([#42](https://github.com/FarmData2/FD2-SampleDBs/issues/42)) ([4635db9](https://github.com/FarmData2/FD2-SampleDBs/commit/4635db9f41ff07c12f50313510800330508023f0))
+
 ## [3.2.3](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.2.2...v3.2.3) (2024-01-25)
 
 
