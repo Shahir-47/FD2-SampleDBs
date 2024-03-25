@@ -1,3 +1,16 @@
+## [3.3.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.2.4...v3.3.0) (2024-03-25)
+
+
+### Chores
+
+* adds script to link libraries from FarmData2 ([#43](https://github.com/FarmData2/FD2-SampleDBs/issues/43)) ([5228728](https://github.com/FarmData2/FD2-SampleDBs/commit/52287281d445071a3863a08e4ec0e0c38f812abd))
+* copies instead of links FD2 libraries ([#44](https://github.com/FarmData2/FD2-SampleDBs/issues/44)) ([b9cafed](https://github.com/FarmData2/FD2-SampleDBs/commit/b9cafed512bd1d1432c0039707bd47b9a273cd00))
+
+
+### Features
+
+* adds tray seeding sample data ([#45](https://github.com/FarmData2/FD2-SampleDBs/issues/45)) ([b472c74](https://github.com/FarmData2/FD2-SampleDBs/commit/b472c74084900b02619859d0b71a93ced0171b3c))
+
 ## [3.2.4](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.2.3...v3.2.4) (2024-02-11)
 
 
