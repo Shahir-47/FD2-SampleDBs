@@ -1,3 +1,10 @@
+## [3.3.2](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.3.1...v3.3.2) (2024-03-27)
+
+
+### Fixes
+
+* adds tray seeding for testing crop names endpoint ([#47](https://github.com/FarmData2/FD2-SampleDBs/issues/47)) ([7607f0d](https://github.com/FarmData2/FD2-SampleDBs/commit/7607f0dcebdd8540c4431131ec176256599ada52))
+
 ## [3.3.1](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.3.0...v3.3.1) (2024-03-27)
 
 
