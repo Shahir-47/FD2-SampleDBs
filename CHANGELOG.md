@@ -1,3 +1,10 @@
+## [3.3.1](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.3.0...v3.3.1) (2024-03-27)
+
+
+### Fixes
+
+* updates tray seeding data to allow better testing ([#46](https://github.com/FarmData2/FD2-SampleDBs/issues/46)) ([55f98b3](https://github.com/FarmData2/FD2-SampleDBs/commit/55f98b39f63d446ca407c727ab2c80c85e97f169))
+
 ## [3.3.0](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.2.4...v3.3.0) (2024-03-25)
 
 
