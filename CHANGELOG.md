@@ -1,3 +1,10 @@
+## [3.3.3](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.3.2...v3.3.3) (2024-03-27)
+
+
+### Fixes
+
+* actually adds the DB containing BEAN-FAVA this time ([#48](https://github.com/FarmData2/FD2-SampleDBs/issues/48)) ([3c8146d](https://github.com/FarmData2/FD2-SampleDBs/commit/3c8146db5378981637aed123d40bba60ace3e0af))
+
 ## [3.3.2](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.3.1...v3.3.2) (2024-03-27)
 
 
