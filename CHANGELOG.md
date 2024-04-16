@@ -1,3 +1,10 @@
+## [3.3.4](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.3.3...v3.3.4) (2024-04-16)
+
+
+### Fixes
+
+* conforms to asset/log naming conventions ([#49](https://github.com/FarmData2/FD2-SampleDBs/issues/49)) ([154ba29](https://github.com/FarmData2/FD2-SampleDBs/commit/154ba29a17908a1710b0d567aa109c4d66d020c4))
+
 ## [3.3.3](https://github.com/FarmData2/FD2-SampleDBs/compare/v3.3.2...v3.3.3) (2024-03-27)
 
 
