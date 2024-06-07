@@ -49,6 +49,8 @@ const data_file =
   dirname(fileURLToPath(import.meta.url)) + "/sampleData/" + csv_file;
 processCsvFile(data_file, processRow, startMsg, endMsg);
 
+let categoryParentId = null;
+let categoryParentName = null;
 let categoryId = null;
 let categoryName = null;
 
@@ -59,8 +61,8 @@ let categoryName = null;
  */
 async function processRow(row) {
   if (row[0] != "") {
-    console.log("  Adding equipment category " + row[0] + "...");
-    const category = farm.asset.create({
+    console.log("  Adding " + row[0] + "...");
+    const categoryParent = farm.asset.create({
       type: "asset--equipment",
       attributes: {
         name: row[0],
@@ -69,26 +71,50 @@ async function processRow(row) {
     });
 
     try {
-      const result = await farm.asset.send(category);
-      categoryId = result.id;
-      categoryName = row[0];
+      const result = await farm.asset.send(categoryParent);
+      categoryParentId = result.id;
+      categoryParentName = row[0];
     } catch (e) {
-      console.log("API error sending measure " + row[0]);
+      console.log("API error sending " + row[0]);
       console.log(e);
       process.exit(1);
     }
     console.log("  Added.");
   } else if (row[1] != "") {
+    console.log("  Adding equipment category " + row[1] + " to category " + categoryParentName  + "...");
+    const category = farm.asset.create({
+      type: "asset--equipment",
+      attributes: {
+        name: row[1],
+        notes: row[2],
+      },
+    });
+    category.relationships.parent.push({
+      type: "asset--equipment",
+      id: categoryParentId,
+    });
+
+    try {
+      const result = await farm.asset.send(category);
+      categoryId = result.id;
+      categoryName = row[1];
+    } catch (e) {
+      console.log("API error sending measure " + row[1]);
+      console.log(e);
+      process.exit(1);
+    }
+    console.log("  Added.");
+  } else if (row[2] != "") {
     console.log(
-      "  Adding equipment " + row[1] + " to category " + categoryName + "..."
+      "  Adding equipment " + row[2] + " to category " + categoryName + "..."
     );
     const equipment = farm.asset.create({
       type: "asset--equipment",
       attributes: {
-        name: row[1],
-        manufacturer: row[2],
-        model: row[3],
-        notes: row[4],
+        name: row[2],
+        manufacturer: row[3],
+        model: row[4],
+        notes: row[5],
       },
     });
     equipment.relationships.parent.push({
@@ -99,7 +125,7 @@ async function processRow(row) {
     try {
       const result = await farm.asset.send(equipment);
     } catch (e) {
-      console.log("API error sending unit " + row[1]);
+      console.log("API error sending unit " + row[2]);
       console.log(e);
       process.exit(1);
     }
