@@ -11,7 +11,7 @@
     "@semantic-release/git": "^10.0.1",
     "conventional-changelog-conventionalcommits": "^7.0.1",
     "csv": "^6.3.3",
-    "cypress": "^12.17.2",
+    "cypress": "12.17.4",
     "farmos": "^2.0.0-beta.16",
     "jsdoc": "^4.0.2",
     "node-localstorage": "^3.0.5",
