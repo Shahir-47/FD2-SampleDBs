@@ -61,9 +61,10 @@ let categoryName = null;
  */
 async function processRow(row) {
   if (row[0] != "") {
+    let equipment = null;
     if (row.length == 1) {
       console.log("  Adding equipment " + row[0] + ", which has no parents...");
-      const equipment = farm.asset.create({
+      equipment = farm.asset.create({
         type: "asset--equipment",
         attributes: {
           name: row[0],
@@ -71,7 +72,7 @@ async function processRow(row) {
       });
     } else if (row.length == 4) {
       console.log("  Adding equipment " + row[0] + ", which has no parents...");
-      const equipment = farm.asset.create({
+      equipment = farm.asset.create({
         type: "asset--equipment",
         attributes: {
           name: row[0],
@@ -82,7 +83,7 @@ async function processRow(row) {
       });
     } else {
       console.log("  Adding " + row[0] + "...");
-      const equipment = farm.asset.create({
+      equipment = farm.asset.create({
         type: "asset--equipment",
         attributes: {
           name: row[0],
